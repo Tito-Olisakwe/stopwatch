@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KC+dhACNSNC3uCWYhuyWT736ECfXfd13mxCdgASBmJyIx15On8EaG36vbrThLNJUooiUbbCLBpvMeli65i13Lg==",
+  "dgSpecHash": "bf7bHbn/q6kTawCiwnQYAQRCJyFs5LZ3WOeE25xAzpEe9ZzP2QsrPhN/2dySNLDkvCKA6LP+LYTKaWyVUaF0hg==",
   "success": true,
-  "projectFilePath": "/workspaces/stopwatch/stopwatch/stopwatch.csproj",
+  "projectFilePath": "D:\\intranet projects\\stopwatch\\stopwatch\\stopwatch.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/stopwatch/stopwatch/stopwatch.csproj": {}
+    "D:\\intranet projects\\stopwatch\\stopwatch\\stopwatch.csproj": {}
   },
   "projects": {
-    "/workspaces/stopwatch/stopwatch/stopwatch.csproj": {
+    "D:\\intranet projects\\stopwatch\\stopwatch\\stopwatch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/stopwatch/stopwatch/stopwatch.csproj",
+        "projectUniqueName": "D:\\intranet projects\\stopwatch\\stopwatch\\stopwatch.csproj",
         "projectName": "stopwatch",
-        "projectPath": "/workspaces/stopwatch/stopwatch/stopwatch.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/stopwatch/stopwatch/obj/",
+        "projectPath": "D:\\intranet projects\\stopwatch\\stopwatch\\stopwatch.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "D:\\intranet projects\\stopwatch\\stopwatch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
