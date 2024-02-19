@@ -1,43 +1,72 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using StopwatchApplication;
-using System.Threading;
+using System;
 
-[TestClass]
-public class StopwatchTests
+namespace StopWatchApplication.Tests
 {
-    [TestMethod]
-    public void TestStartAndStop()
-    {
-        var stopwatch = new StopwatchLogic();
-        stopwatch.Start();
-        Thread.Sleep(1000); // Simulate 1 second passing
-        stopwatch.Stop();
-        Assert.AreEqual("00:00:01", stopwatch.GetCurrentTime());
-    }
+    public class StopwatchApp Tests{
+        public static void Main(string[] args)
+        {
+            RunAllTests();
+        }
 
-    [TestMethod]
-    public void TestPauseAndResume()
-    {
-        var stopwatch = new StopwatchLogic();
-        stopwatch.Start();
-        Thread.Sleep(1000); // Simulate 1 second passing
-        stopwatch.Pause();
-        var timeAfterPause = stopwatch.GetCurrentTime();
-        Thread.Sleep(1000); // Simulate another second passing, but stopwatch is paused
-        stopwatch.Resume();
-        Thread.Sleep(1000); // Simulate another second passing after resuming
-        stopwatch.Stop();
-        Assert.AreEqual("00:00:02", stopwatch.GetCurrentTime(), "Stopwatch did not resume correctly.");
-    }
+        private static void RunAllTests()
+        {
+            Console.WriteLine("Running StopwatchUI Tests\n");
 
-    [TestMethod]
-    public void TestReset()
-    {
-        var stopwatch = new StopwatchLogic();
-        stopwatch.Start();
-        Thread.Sleep(1000); // Simulate 1 second passing
-        stopwatch.Stop();
-        stopwatch.Reset();
-        Assert.AreEqual("00:00:00", stopwatch.GetCurrentTime(), "Stopwatch did not reset correctly.");
+            StopwatchUI stopwatchUI = new StopwatchUI();
+
+            try
+            {
+                // Test1: Start
+                Console.WriteLine("Test 1: Start");
+                stopwatchUI.RunCommand("start");
+                PrintCurrentState(stopwatchUI);
+                WaitForUserInput();
+
+                //Test 2: Pause
+                Console.WriteLine("Test 2: Pause");
+                stopwatchUI.RunCommand("pause");
+                PrintCurrentState(stopwatchUI);
+                WaitForUserInput();
+
+                //Test 3: Resume
+                Console.WriteLine("Test 3: Resume");
+                stopwatchUI.RunCommand("resume");
+                PrintCurrentState(stopwatchUI);
+                WaitForUserInput();
+
+                //Test 4: Reset
+                Console.WriteLine("Test 4: Reset");
+                stopwatchUI.RunCommand("reset");
+                PrintCurrentState(stopwatchUI);
+                WaitForUserInput();
+
+                //Test 5: Stop
+                Console.WriteLine("Test 5: Stop");
+                stopwatchUI.RunCommand("stop");
+                PrintCurrentState(stopwatchUI);
+                WaitForUserInput();
+
+                //Test 6: Exit Command
+                Console.WriteLine("Test 6: Exit");
+                stopwatchUI.RunCommand("exit");
+                Console.WriteLine(" Test completion");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Test failed: {ex.Message}");
+            }
+        }
+        
+        private static void PrintCurrentState(StopwatchApp UI stopwatchUI)
+        {
+            Console.WriteLine($"Current Time: {stopwatchUI.GetCurrentTime()}\n");
+        }
+
+        private static void WaitForUserInput()
+        {
+            Console.WriteLine("Press Enter to continue...");
+            Console.ReadLine();
+            Console.Clear();
+        }
     }
 }

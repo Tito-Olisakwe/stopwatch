@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net7.0": {
       "coverlet.collector/6.0.0": {
         "type": "package",
         "build": {
@@ -376,6 +376,16 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+        }
+      },
+      "stopwatch/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/stopwatch.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/stopwatch.dll": {}
         }
       }
     }
@@ -1021,41 +1031,55 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "stopwatch/1.0.0": {
+      "type": "project",
+      "path": "../stopwatch/stopwatch.csproj",
+      "msbuildProject": "../stopwatch/stopwatch.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net7.0": [
       "MSTest.TestAdapter >= 3.0.4",
       "MSTest.TestFramework >= 3.0.4",
       "Microsoft.NET.Test.Sdk >= 17.6.0",
-      "coverlet.collector >= 6.0.0"
+      "coverlet.collector >= 6.0.0",
+      "stopwatch >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "/home/codespace/.nuget/packages/": {}
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/stopwatch/stopwatch.Tests/stopwatch.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\stopwatch\\stopwatch.Tests\\stopwatch.Tests.csproj",
       "projectName": "stopwatch.Tests",
-      "projectPath": "/workspaces/stopwatch/stopwatch.Tests/stopwatch.Tests.csproj",
-      "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/stopwatch/stopwatch.Tests/obj/",
+      "projectPath": "C:\\Users\\Lenovo\\stopwatch\\stopwatch.Tests\\stopwatch.Tests.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo\\stopwatch\\stopwatch.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "projectReferences": {}
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\Lenovo\\stopwatch\\stopwatch\\stopwatch.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\stopwatch\\stopwatch\\stopwatch.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1065,8 +1089,8 @@
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
@@ -1101,7 +1125,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.312\\RuntimeIdentifierGraph.json"
       }
     }
   }
