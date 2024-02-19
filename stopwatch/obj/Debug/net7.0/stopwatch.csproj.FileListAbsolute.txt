@@ -12,3 +12,18 @@ D:\intranet projects\stopwatch\stopwatch\obj\Debug\net7.0\refint\stopwatch.dll
 D:\intranet projects\stopwatch\stopwatch\obj\Debug\net7.0\stopwatch.pdb
 D:\intranet projects\stopwatch\stopwatch\obj\Debug\net7.0\stopwatch.genruntimeconfig.cache
 D:\intranet projects\stopwatch\stopwatch\obj\Debug\net7.0\ref\stopwatch.dll
+C:\Users\Lenovo\stopwatch\stopwatch\obj\Debug\net7.0\stopwatch.csproj.AssemblyReference.cache
+C:\Users\Lenovo\stopwatch\stopwatch\obj\Debug\net7.0\stopwatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\stopwatch\stopwatch\obj\Debug\net7.0\stopwatch.AssemblyInfoInputs.cache
+C:\Users\Lenovo\stopwatch\stopwatch\obj\Debug\net7.0\stopwatch.AssemblyInfo.cs
+C:\Users\Lenovo\stopwatch\stopwatch\obj\Debug\net7.0\stopwatch.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\stopwatch\stopwatch\obj\Debug\net7.0\stopwatch.dll
+C:\Users\Lenovo\stopwatch\stopwatch\obj\Debug\net7.0\refint\stopwatch.dll
+C:\Users\Lenovo\stopwatch\stopwatch\obj\Debug\net7.0\stopwatch.pdb
+C:\Users\Lenovo\stopwatch\stopwatch\bin\Debug\net7.0\stopwatch.exe
+C:\Users\Lenovo\stopwatch\stopwatch\bin\Debug\net7.0\stopwatch.deps.json
+C:\Users\Lenovo\stopwatch\stopwatch\bin\Debug\net7.0\stopwatch.runtimeconfig.json
+C:\Users\Lenovo\stopwatch\stopwatch\bin\Debug\net7.0\stopwatch.dll
+C:\Users\Lenovo\stopwatch\stopwatch\bin\Debug\net7.0\stopwatch.pdb
+C:\Users\Lenovo\stopwatch\stopwatch\obj\Debug\net7.0\stopwatch.genruntimeconfig.cache
+C:\Users\Lenovo\stopwatch\stopwatch\obj\Debug\net7.0\ref\stopwatch.dll

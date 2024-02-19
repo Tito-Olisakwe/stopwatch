@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bf7bHbn/q6kTawCiwnQYAQRCJyFs5LZ3WOeE25xAzpEe9ZzP2QsrPhN/2dySNLDkvCKA6LP+LYTKaWyVUaF0hg==",
+  "dgSpecHash": "2z3JcVA6SLCw+6XosUgk3nM7ayUUdv6j961iFe6szvKGV4tCrW7CiOTXOAIjPTSa5kqjcB7JaZU/0yp48f+ElQ==",
   "success": true,
-  "projectFilePath": "D:\\intranet projects\\stopwatch\\stopwatch\\stopwatch.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\stopwatch\\stopwatch\\stopwatch.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
