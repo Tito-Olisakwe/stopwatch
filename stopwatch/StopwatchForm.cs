@@ -1,6 +1,6 @@
 using System;
 using System.Windows.Forms;
-using StopwatchApplication; 
+using StopwatchApplication;
 using Timer = System.Windows.Forms.Timer;
 
 namespace StopwatchApplication
@@ -46,15 +46,16 @@ namespace StopwatchApplication
             stopwatchLogic.Pause();
             uiTimer.Stop();
             UpdateTimeDisplay();
-            MessageBox.Show($"Paused at: {stopwatchLogic.GetCurrentTime()}", "Stopwatch Paused", MessageBoxButtons.OK, MessageBoxIcon.Information); // Added line
         }
 
         private void BtnStop_Click(object sender, EventArgs e)
         {
-            stopwatchLogic.Stop();
+            string lastReadValue = stopwatchLogic.GetCurrentTime(); 
+            stopwatchLogic.Stop(); 
             uiTimer.Stop();
-            UpdateTimeDisplay();
-            MessageBox.Show($"Stopped at: {stopwatchLogic.GetCurrentTime()}", "Stopwatch Stopped", MessageBoxButtons.OK, MessageBoxIcon.Information); // Added line
+            UpdateTimeDisplay(); 
+            MessageBox.Show($"Stopped at: {lastReadValue}", "Stopwatch Stopped", MessageBoxButtons.OK, MessageBoxIcon.Information); // Show the last read value
+            stopwatchLogic.Reset(); 
         }
 
         private void UiTimer_Tick(object sender, EventArgs e)
