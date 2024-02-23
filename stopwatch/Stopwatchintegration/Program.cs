@@ -1,11 +1,16 @@
 ﻿using System;
-using StopwatchApp = StopwatchApplication;
+using System.Windows.Forms;
 
-public class Program
+namespace   StopwatchApplication // Change to your actual namespace
 {
-    static void Main(string[] args)
+    static class Program
     {
-        StopwatchApp.StopwatchUI stopwatchUI = new StopwatchApp.StopwatchUI();
-        stopwatchUI.Run();
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new StopwatchForm());
+        }
     }
 }
