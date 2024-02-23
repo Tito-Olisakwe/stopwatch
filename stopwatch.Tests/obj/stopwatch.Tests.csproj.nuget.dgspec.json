@@ -1,31 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/stopwatch/stopwatch.Tests/stopwatch.Tests.csproj": {}
+    "C:\\Users\\Lenovo\\stopwatch\\stopwatch.Tests\\stopwatch.Tests.csproj": {}
   },
   "projects": {
-    "/workspaces/stopwatch/stopwatch.Tests/stopwatch.Tests.csproj": {
+    "C:\\Users\\Lenovo\\stopwatch\\stopwatch.Tests\\stopwatch.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/stopwatch/stopwatch.Tests/stopwatch.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\stopwatch\\stopwatch.Tests\\stopwatch.Tests.csproj",
         "projectName": "stopwatch.Tests",
-        "projectPath": "/workspaces/stopwatch/stopwatch.Tests/stopwatch.Tests.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/stopwatch/stopwatch.Tests/obj/",
+        "projectPath": "C:\\Users\\Lenovo\\stopwatch\\stopwatch.Tests\\stopwatch.Tests.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\stopwatch\\stopwatch.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Lenovo\\stopwatch\\stopwatch\\stopwatch.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\stopwatch\\stopwatch\\stopwatch.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -35,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -71,7 +78,63 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lenovo\\stopwatch\\stopwatch\\stopwatch.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lenovo\\stopwatch\\stopwatch\\stopwatch.csproj",
+        "projectName": "stopwatch",
+        "projectPath": "C:\\Users\\Lenovo\\stopwatch\\stopwatch\\stopwatch.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\stopwatch\\stopwatch\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.312\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -45,6 +45,7 @@ namespace StopwatchApplication
                     case "stop":
                         stopwatchLogic.Stop();
                         Console.WriteLine($"Stopwatch stopped at: {stopwatchLogic.GetCurrentTime()}");
+                        stopwatchLogic.Reset();
                         break;
                     case "exit":
                         isRunning = false;
