@@ -46,6 +46,7 @@ namespace StopwatchApplication
             stopwatchLogic.Pause();
             uiTimer.Stop();
             UpdateTimeDisplay();
+            MessageBox.Show($"Paused at: {stopwatchLogic.GetCurrentTime()}", "Stopwatch Paused", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void BtnStop_Click(object sender, EventArgs e)
